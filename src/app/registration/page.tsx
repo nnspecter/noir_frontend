@@ -1,8 +1,10 @@
-import React from 'react'
+import { RegisterForm } from '@/widgets/Auth'
 
 const login = () => {
   return (
-    <div>login</div>
+    <div>
+      <RegisterForm />
+    </div>
   )
 }
 

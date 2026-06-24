@@ -1,8 +1,9 @@
-import React from 'react'
+import { LoginForm } from '@/widgets/Auth'
+
 
 const login = () => {
   return (
-    <div>login</div>
+    <LoginForm/>
   )
 }
 
