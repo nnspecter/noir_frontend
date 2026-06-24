@@ -16,7 +16,7 @@ export const MountAnimation = ({ children, animKey = "key1" }: MountAnimationPro
         initial={shouldReduceMotion ? {} : { opacity: 0, y: 0 }}
         animate={shouldReduceMotion ? {} : { opacity: 1, y: 0 }}
         exit={shouldReduceMotion ? {} : { opacity: 0, y: -20 }}
-        transition={shouldReduceMotion ? { duration: 0 } : { duration: 0.4 }}
+        transition={shouldReduceMotion ? { duration: 0 } : { duration: 0.7 }}
       >
         {children}
       </m.div>

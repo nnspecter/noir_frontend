@@ -1,5 +1,13 @@
 @use './base/variables';
 @use './base/typography';
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
 .container, .containerSkeleton {
   display: flex;
